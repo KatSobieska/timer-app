@@ -4,9 +4,9 @@ import Button from "./components/Button/Button.js";
 const App = () => {
   return (
     <Container>
-      <Button />
-      <Button />
-      <Button />
+      <Button>START</Button>
+      <Button>STOP</Button>
+      <Button>RESET</Button>
     </Container>
   );
 };
