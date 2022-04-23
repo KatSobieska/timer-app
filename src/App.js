@@ -1,12 +1,10 @@
 import Container from "./components/Container/Container.js";
-import Button from "./components/Button/Button.js";
+import Timer from "./components/Timer/Timer.js";
 
 const App = () => {
   return (
     <Container>
-      <Button>START</Button>
-      <Button>STOP</Button>
-      <Button>RESET</Button>
+      <Timer />
     </Container>
   );
 };
